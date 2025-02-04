@@ -28,9 +28,34 @@ Make sure you have the following installed on your system:
 - Any IDE (Eclipse, IntelliJ IDEA, VS Code)
 - Git
 
-### Clone the Repository
-To get a local copy of the project, run:
-```sh
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+### Steps to Run the Application
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/humhainpiyush/Frontend-Backend-with-JS-SpringBoot.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Frontend-Backend-with-JS-SpringBoot
+   ```
+3. Build the project using Maven:
+   ```bash
+   mvn clean install
+   ```
+4. Run the application:
+   ```bash
+   mvn spring-boot:run
+   ```
+5. Access the application in your browser at:
+   ```
+   http://localhost:8080
+   ```
+   
+## Contributing
+Feel free to fork the repository and submit pull requests!
+
+## License
+
+---
+
+This README provides clear instructions on project functionality, setup, and usage. Let me know if you need any modifications! 🚀
 
